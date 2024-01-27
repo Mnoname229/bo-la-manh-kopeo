@@ -8,20 +8,20 @@ local Window = Fluent:CreateWindow({
     TabWidth = 160,
     Size = UDim2.fromOffset(450, 300),
     Acrylic = true, -- The blur may be detectable, setting this to false disables blur entirely
-    Theme = "Darker",
+    Theme = "Cyaner",
     MinimizeKey = Enum.KeyCode.End -- Used when theres no MinimizeKeybind
 })
 local Tabs = {
-    Màn chính = Window:AddTab({ Title = "Main", Icon = "home" }),
-    Cài đặt = Window:AddTab({ Title = "Setting", Icon = "settings" }),
-    chỉ số lol = Window:AddTab({ Title = "Stats", Icon = "plus-circle" }),
-    Thằngngườichơi = Window:AddTab({ Title = "Player", Icon = "baby" }),
-    ISEKAI = Window:AddTab({ Title = "Teleport", Icon = "palmtree" }),
-    AcWy = Window:AddTab({ Title = "Devil Fruit", Icon = "cherry" }),
-    Deathnote = Window:AddTab({ Title = "Dungeon", Icon = "swords" }),
-    Tộc tùm lum = Window:AddTab({ Title = "Race V4", Icon = "chevrons-right" }),
-    Shopee = Window:AddTab({ Title = "Shop", Icon = "shopping-cart" }),
-	Misc = Window:AddTab({ Title = "Misc", Icon = "list-plus" }),
+    Main = Window:AddTab({ Title = "Main", Icon = "home" }),
+    Setting = Window:AddTab({ Title = "Setting", Icon = "settings" }),
+    Stattumlum = Window:AddTab({ Title = "Stattumlum", Icon = "plus-circle" }),
+    Player = Window:AddTab({ Title = "Player", Icon = "baby" }),
+    ISEKAI = Window:AddTab({ Title = "ISEKAI", Icon = "palmtree" }),
+    AcWy = Window:AddTab({ Title = "AcWy", Icon = "cherry" }),
+    Deathnote = Window:AddTab({ Title = "Deathnote", Icon = "swords" }),
+    Racecak = Window:AddTab({ Title = "Racecak", Icon = "chevrons-right" }),
+    Shopee = Window:AddTab({ Title = "Shopee", Icon = "shopping-cart" }),
+	JCXCS = Window:AddTab({ Title = "JCXCS", Icon = "list-plus" }),
 }
 local Options = Fluent.Options
 
@@ -4362,7 +4362,7 @@ end
 
 
 
-_G.FastAttackDelay = 0.1
+_G.FastAttackDelay = 0.12
 
     local Client = game.Players.LocalPlayer
     local STOP = require(Client.PlayerScripts.CombatFramework.Particle)
